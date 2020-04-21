@@ -555,11 +555,6 @@ section {
   transition: 0.3s;
 }
 
-.contact .mapouter{
-  border-style: solid;
-  border-width: 1px;
-}
-
 .contact .social-links a:hover {
   background: #01315f;
   color: #fff;
@@ -676,4 +671,25 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+
+
+/*--------------------------------------------------------------
+# Google Map Responsive
+--------------------------------------------------------------*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border: solid;
+    border-width: 1px;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
